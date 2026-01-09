@@ -16,6 +16,7 @@ static tflite::MicroInterpreter* interpreter_ptr = nullptr;
 static TfLiteTensor* input_ptr = nullptr;
 static TfLiteTensor* output_ptr = nullptr;
 
+// Inicialização do TFLM
 extern "C" int tflm_init(void) {
     model_ptr = tflite::GetModel(mnist_cnn_int8_model);
     if (!model_ptr) return 1;
