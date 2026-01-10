@@ -199,13 +199,6 @@ Sugestão: mantenha um script Python/Colab para:
 
 ---
 
-## Licença
-
-Defina a licença do seu repositório (ex.: MIT, Apache-2.0, BSD-3-Clause).  
-> Se você estiver usando código de terceiros (Pico SDK, TFLM/pico-tflmicro, CMSIS-NN), mantenha os avisos/licenças conforme exigido.
-
----
-
 ## Créditos e referências
 
 - Raspberry Pi Pico SDK (RP2040)
